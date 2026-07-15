@@ -444,6 +444,28 @@ section {
   margin-right: 6px;
 }
 
+.modules {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  margin-bottom: 28px;
+}
+
+.modules li {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 980px;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+}
+
+.section-alt .modules li {
+  background: var(--bg);
+}
+
 .card-links {
   display: flex;
   gap: 20px;
