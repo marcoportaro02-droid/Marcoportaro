@@ -183,8 +183,7 @@ section {
   position: absolute;
   inset: -20% -20% auto -20%;
   height: 140%;
-  background: radial-gradient(circle at 30% 20%, rgba(0, 113, 227, 0.14), transparent 55%),
-    radial-gradient(circle at 75% 60%, rgba(0, 113, 227, 0.08), transparent 50%);
+  background: var(--bg);
   z-index: -1;
 }
 
@@ -193,13 +192,12 @@ section {
 }
 
 .hero-image {
-  width: clamp(120px, 16vw, 200px);
-  height: clamp(120px, 16vw, 200px);
+  width: clamp(220px, 34vw, 420px);
+  height: clamp(220px, 34vw, 420px);
   object-fit: cover;
-  border-radius: 28px;
+  border-radius: 32px;
   display: block;
   margin: 0 auto 32px;
-  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12), 0 6px 16px rgba(0, 0, 0, 0.06);
 }
 
 .eyebrow {
@@ -392,29 +390,6 @@ section {
   color: var(--text-secondary);
   line-height: 1.6;
   margin-bottom: 28px;
-}
-
-.card-stats {
-  display: flex;
-  gap: 32px;
-  margin-bottom: 28px;
-}
-
-.stat {
-  display: flex;
-  flex-direction: column;
-}
-
-.stat-num {
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--accent);
-  letter-spacing: -0.02em;
-}
-
-.stat-label {
-  font-size: 13px;
-  color: var(--text-secondary);
 }
 
 .process {
