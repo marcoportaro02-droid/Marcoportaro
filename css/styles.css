@@ -87,6 +87,11 @@ section {
   letter-spacing: -0.01em;
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
 .nav-links {
   display: flex;
   gap: 32px;
@@ -101,6 +106,22 @@ section {
 
 .nav-links a:hover {
   opacity: 1;
+}
+
+.lang-switch {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 6px 12px;
+  border-radius: 980px;
+  border: 1px solid var(--border);
+  color: var(--text);
+  margin-left: 24px;
+  transition: background 0.2s ease;
+}
+
+.lang-switch:hover {
+  background: var(--bg-alt);
 }
 
 .nav-toggle {
